@@ -1,0 +1,7 @@
+release/
+*.keys
+prod.keys
+title.keys
+*.nsp
+*.xci
+*.nsz

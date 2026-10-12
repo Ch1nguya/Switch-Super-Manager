@@ -1,0 +1,169 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Switch Super Manager theme",
+  "type": "object",
+  "required": [
+    "palette"
+  ],
+  "properties": {
+    "format": {
+      "type": "integer",
+      "const": 1
+    },
+    "name": {
+      "type": "string",
+      "maxLength": 60,
+      "description": "Name shown in the theme list."
+    },
+    "author": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "extends": {
+      "enum": [
+        "cyber-neon",
+        "dreamcast-grey"
+      ],
+      "default": "cyber-neon",
+      "description": "Built-in theme that provides the roles you leave out."
+    },
+    "palette": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "accent": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "main accent (selected tab, focus, buttons)"
+        },
+        "accent2": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "second accent (section titles, highlights)"
+        },
+        "accent_deep": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "darker accent (pressed buttons)"
+        },
+        "accent_soft": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "lighter accent (icons, links)"
+        },
+        "bg": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "window background"
+        },
+        "border": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "frames around panels"
+        },
+        "btn_bg": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "button background"
+        },
+        "btn_hover_bg": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "button background when hovered"
+        },
+        "frame_strong": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "strong frame (cheats panel)"
+        },
+        "input": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "text fields and combo boxes"
+        },
+        "input_hover": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "text field background when hovered"
+        },
+        "line": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "separators and thin outlines"
+        },
+        "line_hover": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "outlines of hovered widgets"
+        },
+        "logo_plate": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "plate behind pictures drawn for dark backgrounds"
+        },
+        "panel2": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "cards and panels"
+        },
+        "panel3": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "table headers, hovered rows, alternate rows"
+        },
+        "scroll_edge": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "scroll bar handle outline"
+        },
+        "scroll_handle": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "scroll bar handle"
+        },
+        "surface": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "raised surfaces"
+        },
+        "text": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "main text"
+        },
+        "text_dim": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "secondary text"
+        },
+        "text_mute": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "disabled and placeholder text"
+        },
+        "toggle_line": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "switch outline"
+        },
+        "toggle_off": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "switch background when off"
+        },
+        "toggle_thumb": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "switch knob when off"
+        },
+        "warn": {
+          "type": "string",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "description": "warnings and caution icons"
+        }
+      }
+    }
+  }
+}
