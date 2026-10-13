@@ -1,22 +1,39 @@
 # Switch-Super-Manager
 
-Desktop manager for your Nintendo Switch game library, with a companion homebrew
-(**Switch-Super-Installer**, SSI) to install, back up and manage content on the console over your local network.
+Desktop manager for your Nintendo Switch homebrew library, and the companion of **[Switch-Super-Installer](https://github.com/Ch1nguya/Switch-Super-Installer)** (SSI), a homebrew that installs, backs up and manages content on the console over your local network.
 
-> **Status:** v0.6.0. The SSM application source is **closed** until v1.0 (SSI is open source, GPL v3). This repository holds the
+> **Status:** v0.6.0. The application source is **closed** until v1.0 (SSI is open source, GPL v3). This repository holds the
 > public kit: documentation, theme kit, utilities and links to the binaries (see [Releases](https://github.com/Ch1nguya/Switch-Super-Manager/releases)).
+
+| | |
+|---|---|
+| ![Library](docs/screenshots/01_SSM_library.png) | ![Console tab](docs/screenshots/02_SSM_Console.png) |
+| *Your library, with covers, details and cheats* | *The console tab: what is installed and the free space* |
 
 ## Features
 
-- Library browser with TitleDB metadata, covers, descriptions, firmware requirements and installed-state detection.
-- Import and organise dumps into one or several library folders (free space shown for each).
-- Send games, updates and DLC to the console over the LAN (queue, progress, history, space check).
-- Console tab: storage map, installed titles, remote uninstall, save backups, screenshot / video gallery.
-- Cheats delivery straight to the console.
-- Themes: two built-in themes plus user themes (see [themes/](themes/README.md)).
-- Keep-awake option so the console does not sleep during transfers.
+- Browse your library with covers, descriptions, screenshots and the firmware each game needs.
+- Import and organise your dumps into one or several library folders, with the free space of each shown.
+- Send games, updates and DLC to the console over your network or USB, with a queue, progress, history and a space check.
+- See what is installed on the console and its free space, uninstall remotely and back up your saves.
+- Copy the screenshots and videos from the console album to your PC.
+- Send cheats straight to the console.
+- Spot duplicates, regroup files that belong together and review the library against the latest TitleDB.
+- Two built-in themes, and your own (see [themes/](themes/README.md)).
+- Available in English, French, Spanish, German, Italian, Brazilian Portuguese, Japanese, Simplified Chinese and Korean (the new translations are machine-made: corrections are welcome).
+- A welcome window on the first launch to set the library folder.
+
+![Import tab](docs/screenshots/03_SSM_Import.png)
 
 See [docs/features.md](docs/features.md) for details.
+
+## Support the project
+
+Switch-Super-Manager and Switch-Super-Installer are free and made on my spare time. If they are useful to you and you feel like it, you can **buy a retro game for my collection** on Ko-fi. It is never required, and always appreciated. Thank you!
+
+<p align="center">
+  <a href="https://ko-fi.com/ch1ngu"><img src="docs/screenshots/kofi.png" alt="Support me on Ko-fi" width="400"></a>
+</p>
 
 ## Getting started
 
