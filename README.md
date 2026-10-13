@@ -32,7 +32,8 @@ See [docs/features.md](docs/features.md) for details.
 | SSI HTTP API (console, port 2003) | [docs/ssi-api.md](docs/ssi-api.md) |
 | SSM HTTP API (PC, port 2002) | [docs/ssm-api.md](docs/ssm-api.md) |
 | Console inventory format | [docs/console-inventory.md](docs/console-inventory.md) |
-| Themes | [themes/README.md](themes/README.md) |
+| SSM themes | [themes/README.md](themes/README.md) |
+| SSI themes | [docs/ssi-themes.md](docs/ssi-themes.md) |
 | FAQ | [docs/faq.md](docs/faq.md) |
 
 ## Binaries

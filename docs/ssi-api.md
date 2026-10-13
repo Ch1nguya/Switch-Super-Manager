@@ -15,5 +15,6 @@ Plain HTTP, LAN only. Available while SSI is open.
 | POST | `/session/end` | end a remote session |
 | POST | `/backup` | back up a save |
 | POST | `/uninstall` | uninstall a title |
+| POST | `/inventory` | send a fresh inventory to SSM now: `{"ssm_url": "http://<pc>:2002/"}` (answers `202`, the inventory arrives on SSM's `/api/console/inventory`) |
 
 Management actions require *remote management* to be enabled in SSI options.
