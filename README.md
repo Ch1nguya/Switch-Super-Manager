@@ -3,7 +3,7 @@
 Desktop manager for your Nintendo Switch game library, with a companion homebrew
 (**Switch-Super-Installer**, SSI) to install, back up and manage content on the console over your local network.
 
-> **Status:** v0.6.0. The application source is **closed** until v1.0. This repository holds the
+> **Status:** v0.6.0. The SSM application source is **closed** until v1.0 (SSI is open source, GPL v3). This repository holds the
 > public kit: documentation, theme kit, utilities and links to the binaries (see [Releases](../../releases)).
 
 ## Features
@@ -44,7 +44,16 @@ Binaries are published only through GitHub Releases, with a `SHA256SUMS` file. S
 
 Community utilities (Python / Rust) will live in [tools/](tools/README.md).
 
-## License
+## Licenses and credits
 
-[PolyForm Noncommercial 1.0.0](LICENSE): free for personal, non-commercial use. No commercial use,
-no redistribution of modified binaries. Not affiliated with Nintendo. Use only with games you own.
+| Component | License |
+|---|---|
+| **Switch-Super-Manager** (SSM, PC application) | [PolyForm Noncommercial 1.0.0](LICENSE): free for personal, non-commercial use. Source closed until v1.0. |
+| **Switch-Super-Installer** (SSI, Switch homebrew) | GPL v3, open source: [Ch1nguya/Switch-Super-Installer](https://github.com/Ch1nguya/Switch-Super-Installer) |
+| This repository (documentation, themes, tools) | [PolyForm Noncommercial 1.0.0](LICENSE), unless a file says otherwise |
+
+SSI is a fork of [Awoo Installer](https://github.com/Huntereb/Awoo-Installer), itself based on
+[Adubbz's Tinfoil](https://github.com/Adubbz/Tinfoil) (MIT) and using [XorTroll's Plutonium](https://github.com/XorTroll/Plutonium).
+Thanks to Huntereb, Behemoth, MrDude, XorTroll, BlaWar, DarkMatterCore and all upstream contributors.
+
+Not affiliated with Nintendo. Use only with games you own; no keys or games are provided.
