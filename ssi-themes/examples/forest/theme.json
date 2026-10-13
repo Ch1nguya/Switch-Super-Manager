@@ -1,0 +1,20 @@
+{
+  "name": "Forest",
+  "base": "default",
+  "colors": {
+    "bg": "#0F2A1C",
+    "topbar": "#08170F",
+    "bar": "#08170F99",
+    "barText": "#E4F5EA",
+    "text": "#E4F5EA",
+    "focus": "#7BD88F33",
+    "scroll": "#4FB26A",
+    "scrollSoft": "#4FB26A",
+    "ok": "#7BD88F",
+    "installBg": "#0F2A1C",
+    "installTop": "#08170F",
+    "installInfo": "#08170F99",
+    "installBar": "#173626",
+    "installBarFill": "#7BD88F"
+  }
+}
