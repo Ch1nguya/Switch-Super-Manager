@@ -24,6 +24,8 @@
 - A rescan stays in the Library tab and refreshes the card of the game.
 
 **Interface**
+- Welcome window on the first launch (choose the library folder or go to Import).
+- Interface in 9 languages: English, French, Spanish, German, Italian, Brazilian Portuguese, Japanese, Simplified Chinese and Korean (the new translations are machine-made and still to be reviewed: corrections are welcome).
 - External user themes (`themes/<name>/theme.json`); the two built-in themes stay immutable.
 - Journal tab (filter, copy, save) and `logs/ssm.log`.
 - About tab (version, links, licenses and credits, diagnostics).
