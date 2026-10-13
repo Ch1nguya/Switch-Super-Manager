@@ -15,7 +15,7 @@ Commits in this repo use the noreply identity configured locally.
 >
 > Companion homebrew for **Switch-Super-Manager (SSM)**. Install and manage content on your Switch over your local network.
 >
-> ## What's new compared to Awoo Installer
+> ## What's new compared to TinWoo and Awoo
 > - Install from an SSM library over LAN, with a game list, covers and multiple selection
 > - Console inventory sent to SSM (installed titles, SD/NAND space, MAC), also on request
 > - Cheats receiver (HTTP, port 2003)
@@ -32,7 +32,7 @@ Commits in this repo use the noreply identity configured locally.
 > ## Source code and license
 > Switch-Super-Installer is free software under the **GNU GPL v3**. Source code for this exact release: this repository at tag `v1.0.0`. Build: see `build_docker.ps1`.
 >
-> It is a fork of [Awoo Installer](https://github.com/Huntereb/Awoo-Installer) (based on [Adubbz's Tinfoil](https://github.com/Adubbz/Tinfoil), using [XorTroll's Plutonium](https://github.com/XorTroll/Plutonium)). Thanks to Huntereb, Behemoth, MrDude, XorTroll, BlaWar, DarkMatterCore and all upstream contributors.
+> It is built on TinWoo by MrDude, which merges Tinleaf and [Awoo Installer](https://github.com/Huntereb/Awoo-Installer) by Huntereb (based on [Adubbz's Tinfoil](https://github.com/Adubbz/Tinfoil), using [XorTroll's Plutonium](https://github.com/XorTroll/Plutonium)). Thanks to MrDude, Huntereb, Behemoth, XorTroll, BlaWar, DarkMatterCore and all upstream contributors.
 >
 > ## Notes
 > - Use only with games you own. No keys or games are provided.

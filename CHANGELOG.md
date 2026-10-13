@@ -31,11 +31,11 @@
 
 ## Switch-Super-Installer 1.0.0
 
-- Fork of Awoo Installer (GPL v3), see the credits in the repository.
+- Built on TinWoo (MrDude), itself based on Awoo Installer (GPL v3), see the credits in the repository.
 - Install from an SSM library over the LAN, with covers (20% bigger during transfers) and multiple selection.
 - Console inventory sent to SSM, on request too (`POST /inventory`).
 - HTTP server on port 2003: cheats, covers, options, remote sessions, save backups, uninstall.
 - Optional remote management, keep the console awake while charging.
 - Themes: Default, Dreamcast Grey and your own (`themes/<name>/theme.json`, see [docs/ssi-themes.md](docs/ssi-themes.md)).
 - Latest sigpatches fetched automatically; longer timeouts for the GitHub requests.
-- Texts follow the chosen language; no Russian translation is shipped.
+- Every text follows the chosen language; the Ukrainian translation file is repaired.
