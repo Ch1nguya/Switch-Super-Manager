@@ -1,5 +1,13 @@
 # Changelog
 
+## Switch-Super-Manager 0.6.1
+
+- After the welcome window, SSM offers to scan the library folder you chose (import in place: nothing is moved or renamed), so the library no longer stays empty.
+- Uninstall several games at once from the Console tab (Ctrl or Shift to select, one confirmation).
+- The import button reads "Scan and add to library" when "Scan library" is on, and fades slowly while the library is empty.
+- Files list of the details panel fits long names on every screen size.
+- The message shown when `prod.keys` is missing says where to put the file.
+
 ## Switch-Super-Manager 0.6.0
 
 **Console**
