@@ -1,5 +1,10 @@
 # Changelog
 
+## Switch-Super-Manager 0.6.2
+
+- Start-up assistant on the first launch: language, `prod.keys` (it can copy the file for you), library folder, import mode (keep, move, rename) and the console IP. When it ends, SSM scans your library folder and adds your games.
+- Hover effect and hand cursor on the assistant's buttons, with the colours of the active theme.
+
 ## Switch-Super-Manager 0.6.1
 
 - After the welcome window, SSM offers to scan the library folder you chose (import in place: nothing is moved or renamed), so the library no longer stays empty.

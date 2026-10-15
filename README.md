@@ -2,7 +2,7 @@
 
 Desktop manager for your Nintendo Switch homebrew library, and the companion of **[Switch-Super-Installer](https://github.com/Ch1nguya/Switch-Super-Installer)** (SSI), a homebrew that installs, backs up and manages content on the console over your local network.
 
-> **Status:** v0.6.1. The application source is **closed** until v1.0 (SSI is open source, GPL v3). This repository holds the
+> **Status:** v0.6.2. The application source is **closed** until v1.0 (SSI is open source, GPL v3). This repository holds the
 > public kit: documentation, theme kit, utilities and links to the binaries (see [Releases](https://github.com/Ch1nguya/Switch-Super-Manager/releases)).
 
 | | |
@@ -21,7 +21,7 @@ Desktop manager for your Nintendo Switch homebrew library, and the companion of 
 - Spot duplicates, regroup files that belong together and review the library against the latest TitleDB.
 - Two built-in themes, and your own (see [themes/](themes/README.md)).
 - Available in English, French, Spanish, German, Italian, Brazilian Portuguese, Japanese, Simplified Chinese and Korean (the new translations are machine-made: corrections are welcome).
-- A welcome window on the first launch to set the library folder.
+- A start-up assistant on the first launch: language, keys, library folder and first scan.
 
 ![Import tab](docs/screenshots/03_SSM_Import.png)
 
