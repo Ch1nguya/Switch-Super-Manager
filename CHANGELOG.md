@@ -44,6 +44,12 @@
 - About tab (version, links, licenses and credits, diagnostics).
 - New splash screen, optional cheats panel, icons on all buttons, dark overlay behind dialogs, many fixes.
 
+## Switch-Super-Installer 1.0.1
+
+- Fixes a crash on firmware 23.x: SSI is now built with the latest devkitA64 toolchain (libnx 4.12.0).
+- The texts added for SSM (remote management, save backups, uninstall, network status) are translated in 8 more languages.
+- The Docker build script is pinned to the toolchain image and no longer stops at compiler warnings.
+
 ## Switch-Super-Installer 1.0.0
 
 - Built on TinWoo (MrDude), itself based on Awoo Installer (GPL v3), see the credits in the repository.

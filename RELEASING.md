@@ -27,7 +27,7 @@ Commits in this repo use the noreply identity configured locally.
 > - Reproducible Docker build (`build_docker.ps1`)
 >
 > ## Install
-> Copy `Switch-Super-Installer.nro` to `/switch/` on your SD card and launch it in full-memory mode: start a game while holding R (title override), not from the Album (applet mode has limited memory and is not supported).
+> Copy `Switch-Super-Installer.nro` to `/switch/` on your SD card and launch it from the Homebrew Menu.
 >
 > ## Source code and license
 > Switch-Super-Installer is free software under the **GNU GPL v3**. Source code for this exact release: this repository at tag `v1.0.0`. Build: see `build_docker.ps1`.
