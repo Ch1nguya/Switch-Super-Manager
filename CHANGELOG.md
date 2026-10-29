@@ -1,5 +1,14 @@
 # Changelog
 
+## Switch-Super-Manager 0.6.4
+
+- **New-version notice.** At start-up SSM looks at the latest release on GitHub and, if a newer one exists, offers to open its page in your browser. It never downloads or installs anything. You can turn it off in the settings, and the About tab has a "Check for updates" button.
+- **Library statistics** (link at the top right): key figures, pie charts by file format, content type and region, the state of each library folder with its free disk space (the last known state is kept when a disk is unplugged), and the 10 largest games.
+- **Filter and sort by location** in the Library when you have several library folders.
+- **Console tab:** a pie chart view of the SD card and the internal memory, next to the block view.
+- **Console tab:** check boxes to tick several games before uninstalling them (no Ctrl or Shift needed), with "Check all" and "Uncheck all".
+- The drop-down lists of the filters open at the width of their longest entry, so long names are readable in a small window.
+
 ## Switch-Super-Manager 0.6.2
 
 - Start-up assistant on the first launch: language, `prod.keys` (it can copy the file for you), library folder, import mode (keep, move, rename) and the console IP. When it ends, SSM scans your library folder and adds your games.
