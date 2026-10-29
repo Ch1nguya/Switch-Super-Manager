@@ -1,5 +1,11 @@
 # Changelog
 
+## Switch-Super-Manager 0.6.5
+
+- **Export of the library** (Settings, Database & tools): a **PDF** with the covers (a grid or a detailed list, A4 or Letter, for the games shown in the Library or the whole library, optionally split in several files) or a **CSV** spreadsheet that opens in Excel. File paths are left out unless you ask for them.
+- **Unrecognised files** (Settings, Database & tools): the list of files the scans could not add to the library (no Title ID found, or a read error), with "Open the folder", "Add to the blacklist" and "Remove from this list".
+- **Scan library is safer:** ticking it now selects "Import without renaming" and "Keep in place", so no file is moved or renamed by mistake. When nothing is moved or renamed, another copy of a known game is recorded as a duplicate without any question.
+
 ## Switch-Super-Manager 0.6.4
 
 - **New-version notice.** At start-up SSM looks at the latest release on GitHub and, if a newer one exists, offers to open its page in your browser. It never downloads or installs anything. You can turn it off in the settings, and the About tab has a "Check for updates" button.

@@ -3,6 +3,8 @@
 - **Library**: TitleDB metadata, covers, required firmware (read from CNMT), installed detection from the console inventory.
   Group a title with a game, set the region of a file, choose or remove a custom cover.
 - **Statistics**: key figures, pie charts by format, type and region, the state of each library folder and its free space (the last known state is kept for unplugged disks), the largest games. Filter and sort the library by location.
+- **Export**: the library as a PDF with covers (grid or detailed list, A4 or Letter, split in several files if you want) or as a CSV spreadsheet. File paths are left out unless you ask.
+- **Unrecognised files**: the list of files the scans could not add (no Title ID, read error), with shortcuts to open the folder or blacklist them.
 - **Metadata review**: compares the library with the current TitleDB and proposes changes you accept one by one. Names, covers and regions you set by hand are never touched.
 - **Import**: sort dumps into library folders; free space of each folder shown. Duplicates are compared by size and SHA-256 before you decide, and nothing is moved before the decision.
 - **Send**: queue, space check against the chosen storage (SD/NAND), live progress with a storage map, history.
