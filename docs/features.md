@@ -9,7 +9,7 @@
 - **Import**: sort dumps into library folders; free space of each folder shown. Duplicates are compared by size and SHA-256 before you decide, and nothing is moved before the decision.
 - **Send**: queue, space check against the chosen storage (SD/NAND), live progress with a storage map, history.
 - **Console tab**: storage usage (blocks or pie chart), installed titles (tick several games to uninstall them), refresh on demand, update from library, remote uninstall, save backups, captures gallery.
-- **Cheats**: pushed to the console via SSI.
+- **Cheats**: pushed to the console via SSI. From Cheatslips (token needed) or from the public archive switch-cheats-db (optional, off by default: the cheats of your library are extracted into the cheats folder, the Cheats filter and a mark on the build of your version come with it; addresses editable).
 - **Remote management** (SSI option): lets SSM install, uninstall and back up saves without on-console confirmation during a session (sessions expire after 10 minutes).
 - **Keep awake**: SSM prevents PC sleep during transfers; SSI can keep the console awake while charging.
 - **Themes**: SSM, see [../themes/README.md](../themes/README.md); SSI, see [ssi-themes.md](ssi-themes.md).

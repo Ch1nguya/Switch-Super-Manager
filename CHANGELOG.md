@@ -1,5 +1,14 @@
 # Changelog
 
+## Switch-Super-Manager 0.6.6
+
+- **Cheats of your games without an account** (new Cheats tab in the settings, off until you turn it on): SSM downloads the public cheats archive (switch-cheats-db, cheats by their authors) and puts the cheats of the games of your library in its cheats folder. They are listed like the ones from Cheatslips, with their number of cheats and a mark on the build that fits your version. Updated when the archive changes; the cheats of games that leave the library are removed. The cheats you downloaded from Cheatslips are never replaced or removed. The addresses can be changed.
+- **Cheats filter** in the Library (for your version, other versions only, none), and a link next to "Statistics" when the cheats archive has changed. "Synchronize with disk" also updates it and says what it did in the log.
+- **Statistics:** click a slice of the format or region chart, or a library folder, to show those files in the Library.
+- **Moved files:** the "File not found" message now offers "Synchronize with disk" (which finds files moved inside your library folders). A file moved by hand is no longer taken for present.
+- **Crash fixed:** SSM could close by itself when the window was maximised or resized (the page of a game and its screenshots were resizing each other without end).
+- The window to send files, the tooltips of the screenshots and the messages of the database maintenance are translated in every language.
+
 ## Switch-Super-Manager 0.6.5
 
 - **Export of the library** (Settings, Database & tools): a **PDF** with the covers (a grid or a detailed list, A4 or Letter, for the games shown in the Library or the whole library, optionally split in several files) or a **CSV** spreadsheet that opens in Excel. File paths are left out unless you ask for them.
