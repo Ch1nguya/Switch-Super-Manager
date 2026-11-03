@@ -10,6 +10,15 @@ Desktop manager for your Nintendo Switch homebrew library, and the companion of 
 | ![Library](docs/screenshots/01_SSM_library.png) | ![Console tab](docs/screenshots/02_SSM_Console.png) |
 | *Your library, with covers, details and cheats* | *The console tab: what is installed and the free space* |
 
+## Why Switch-Super-Manager?
+
+- **Made for the console on your desk.** SSM and SSI work as a pair: install, uninstall, back up saves, copy captures and push cheats from your PC, over your network or USB, with a queue, live progress and a free-space check.
+- **Knows what is really installed.** The Console tab compares your console with the latest TitleDB, shows which updates and DLC exist and which of them you already have in your library, and sends them in one go.
+- **Nothing happens by surprise.** Duplicates are compared by size and SHA-256 before you decide, nothing is moved before your answer, a library scan never renames or moves a file by default, and remote actions on the console ask for confirmation.
+- **A desktop application, no server.** Unzip and run; a start-up assistant sets the language, keys and library folder; 9 languages and your own themes.
+- **Your library on paper.** Statistics with pie charts, a PDF with covers, a CSV spreadsheet, and the list of files SSM could not recognise.
+- **Open interfaces.** The HTTP APIs of SSM and SSI are documented, and the console inventory format too.
+
 ## Features
 
 - Browse your library with covers, descriptions, screenshots and the firmware each game needs.
