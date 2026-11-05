@@ -1,5 +1,13 @@
 # Changelog
 
+## Switch-Super-Manager 0.6.7
+
+- **"Synchronize with disk" no longer treats an unplugged disk as deleted files.** The entries of a library folder that cannot be reached (external disk off, network share down) are kept, and the report says how many.
+- **"Synchronize with disk" cleans the library:** it offers to remove a leftover `[DUP]` from file names that are no longer duplicates (the other copy is gone), and the stale entries of copies that were moved and imported again are proposed for removal instead of staying "unresolved". Real duplicates are never touched, and nothing changes until you apply the report. The report window is wider.
+- **Send queue:** the bar at the bottom now has a visible "Send..." button (clicking the bar did the same, but nothing said so).
+- **Cheatslips token:** an unrelated save can no longer erase it when the field was empty only because the token could not be read at start-up.
+- **Console IP:** a new address typed in the settings is used at once; the address of the last inventory no longer wins over it until you restart.
+
 ## Switch-Super-Manager 0.6.6
 
 - **Cheats of your games without an account** (new Cheats tab in the settings, off until you turn it on): SSM downloads the public cheats archive (switch-cheats-db, cheats by their authors) and puts the cheats of the games of your library in its cheats folder. They are listed like the ones from Cheatslips, with their number of cheats and a mark on the build that fits your version. Updated when the archive changes; the cheats of games that leave the library are removed. The cheats you downloaded from Cheatslips are never replaced or removed. The addresses can be changed.
