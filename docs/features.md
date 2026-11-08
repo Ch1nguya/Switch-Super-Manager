@@ -1,5 +1,6 @@
 # Features
 
+- **Switch 2**: NUP archives (the open container for decrypted Switch 1 and Switch 2 dumps, see github.com/a55uka/nup) are read without keys: name, icon, base game, updates and DLC come from the archive and from TitleDB. A Switch / Switch 2 filter appears when the library holds both. The console of a game is told from its program description (main.npdm), as the Eglantine emulator does, for NUP, NSP and XCI; the title ID prefix 04 is only a fallback. Sending a Switch 2 archive to a console is turned off until SSI supports it.
 - **Library**: TitleDB metadata, covers, required firmware (read from CNMT), installed detection from the console inventory.
   Group a title with a game, set the region of a file, choose or remove a custom cover.
 - **Statistics**: key figures, pie charts by format, type and region, the state of each library folder and its free space (the last known state is kept for unplugged disks), the largest games. Filter and sort the library by location.

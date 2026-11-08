@@ -2,7 +2,7 @@
 
 Desktop manager for your Nintendo Switch homebrew library, and the companion of **[Switch-Super-Installer](https://github.com/Ch1nguya/Switch-Super-Installer)** (SSI), a homebrew that installs, backs up and manages content on the console over your local network.
 
-> **Status:** v0.6.7. The application source is **closed** until v1.0 (SSI is open source, GPL v3). This repository holds the
+> **Status:** v0.7.0. The application source is **closed** until v1.0 (SSI is open source, GPL v3). This repository holds the
 > public kit: documentation, theme kit, utilities and links to the binaries (see [Releases](https://github.com/Ch1nguya/Switch-Super-Manager/releases)).
 
 | | |
@@ -27,6 +27,7 @@ Desktop manager for your Nintendo Switch homebrew library, and the companion of 
 - See what is installed on the console and its free space, uninstall remotely and back up your saves.
 - Copy the screenshots and videos from the console album to your PC.
 - Send cheats straight to the console, from your Cheatslips account or from the public cheats archive (no account needed).
+- Read **Switch 2** games: NUP archives (and Switch 2 games in NSP or XCI) are listed in the library, with a Switch / Switch 2 filter. Sending to a Switch 2 is not supported yet (SSI has no Switch 2 version).
 - Spot duplicates, regroup files that belong together and review the library against the latest TitleDB.
 - Export your library to a PDF with covers or to a CSV spreadsheet, and see the files SSM could not recognise.
 - Two built-in themes, and your own (see [themes/](themes/README.md)).

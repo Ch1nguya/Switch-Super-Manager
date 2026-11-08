@@ -1,5 +1,13 @@
 # Changelog
 
+## Switch-Super-Manager 0.7.0
+
+- **Switch 2 games, read from NUP archives.** SSM now reads `.nup` files (the open container for decrypted Switch 1 and Switch 2 dumps, see github.com/a55uka/nup) without any key: the name, the icon, the base game, its updates and its DLC come from the archive and from TitleDB, and the file is listed in the library like the others (format "NUP").
+- **Switch / Switch 2 filter** in the Library, shown only when it holds games of both consoles. The console of a game is told from its program description (`main.npdm`), as the Eglantine emulator does, so a Switch 2 game in an NSP or an XCI is recognised too (the title ID is only a fallback, for compressed files, updates and DLC). Rescan a game to get it from its file.
+- **Sending to a console is turned off for NUP archives** for now (SSI has no Switch 2 version yet): the buttons are off and the queue refuses them, with an explanation.
+- **Big copies are followed in the journal:** a line when a copy of more than 256 MB starts, one every 10 percent (or every minute) with the speed and the time left, and one when it ends.
+- **The journal stays open during an import:** Settings only offers its Journal page while an import runs, so the log can be read, filtered and copied.
+
 ## Switch-Super-Manager 0.6.7
 
 - **"Synchronize with disk" no longer treats an unplugged disk as deleted files.** The entries of a library folder that cannot be reached (external disk off, network share down) are kept, and the report says how many.
