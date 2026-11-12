@@ -1,5 +1,11 @@
 # Changelog
 
+## Switch-Super-Manager 0.7.1
+
+- **Offline mode** (Settings, Database & tools): one button downloads the screenshots of every game of the library at once (up to 8 per game), so that the game pages are complete without an internet connection. Only the missing ones are downloaded; the window first tells how many, the space needed and the free space. It runs in the background (you can keep working, even synchronise the database), logs its progress in the journal, can be cancelled at any time and stops by itself when the disk is almost full. A **View journal** button shows up while it runs. Covers and descriptions were already kept offline.
+- **Cheats filter:** the cheats you downloaded yourself (from Cheatslips) now count: a game no longer shows as "none" when you have a cheat file for it.
+- **Journal page:** the log now fills the height of the window.
+
 ## Switch-Super-Manager 0.7.0
 
 - **Switch 2 games, read from NUP archives.** SSM now reads `.nup` files (the open container for decrypted Switch 1 and Switch 2 dumps, see github.com/a55uka/nup) without any key: the name, the icon, the base game, its updates and its DLC come from the archive and from TitleDB, and the file is listed in the library like the others (format "NUP").

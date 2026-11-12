@@ -2,7 +2,7 @@
 
 Desktop manager for your Nintendo Switch homebrew library, and the companion of **[Switch-Super-Installer](https://github.com/Ch1nguya/Switch-Super-Installer)** (SSI), a homebrew that installs, backs up and manages content on the console over your local network.
 
-> **Status:** v0.7.0. The application source is **closed** until v1.0 (SSI is open source, GPL v3). This repository holds the
+> **Status:** v0.7.1. The application source is **closed** until v1.0 (SSI is open source, GPL v3). This repository holds the
 > public kit: documentation, theme kit, utilities and links to the binaries (see [Releases](https://github.com/Ch1nguya/Switch-Super-Manager/releases)).
 
 | | |
@@ -22,6 +22,7 @@ Desktop manager for your Nintendo Switch homebrew library, and the companion of 
 ## Features
 
 - Browse your library with covers, descriptions, screenshots and the firmware each game needs.
+- Offline mode: download the screenshots of the whole library at once to browse it without a connection.
 - Import and organise your dumps into one or several library folders, with the free space of each shown.
 - Send games, updates and DLC to the console over your network or USB, with a queue, progress, history and a space check.
 - See what is installed on the console and its free space, uninstall remotely and back up your saves.
